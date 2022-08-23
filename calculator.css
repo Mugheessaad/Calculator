@@ -1,0 +1,167 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(136, 135, 135);
+    color: white;
+}
+header i{
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+header h1{
+    margin: 0px;
+}
+#login{
+    display: flex;
+    justify-content: space-between;
+}
+#maindiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #D8E4F0;  
+        padding: 15px;
+}
+.calculator{
+    width: 55%;
+    background-color: #2a2c30de;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 90%;
+}
+#line{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1px;
+    background: rgb(125, 124, 124);
+}
+#calculations{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-size: 35px;
+}
+#input{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+}
+#answer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 120px;
+    overflow: hidden;
+}
+#visionmood{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#visionmood button{
+    width: 15%;
+    border-radius: 10%;
+    margin-top: 12px;
+    font-size: 41px;
+    color: #EA5805;
+    background: #282B30;
+    border-style: none;
+    box-shadow: -10px 8px 16px -10px #24272c, 5px 6px 20px 5px #24272c;
+}
+#visionmood button:hover{
+    background-color: rgb(243, 247, 5);
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly; 
+    padding: 20px; 
+}
+#buttonC{
+    color: orangered;
+}
+#equal{
+    color: orangered;
+    border: 1px solid orangered;
+}
+#backspace{
+    width: 100%;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+#backspace i:hover{
+    color: rgb(81, 84, 84);
+}
+.btn{
+    width: 15%;
+    height: 10vh;
+    margin: 10px 25px;
+    border-radius: 30px;
+    font-size: 57px;
+    background: #282B30;
+    color: white;
+    box-shadow: -10px 8px 16px -10px #24272c, 5px 6px 20px 5px #24272c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+.buttons button:hover{
+    background-color: rgb(81, 84, 84);
+}
+.vsi{
+    background: white;
+}
+btn{
+    background-color: white;
+}
+.buttons1{
+    width: 15%;
+    height: 10vh;
+    margin: 10px 25px;
+    border-radius: 30px;
+    font-size: 57px;
+    background: white;
+    color: black;
+    box-shadow: -10px 8px 16px -10px #24272c, 5px 6px 20px 5px #24272c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+
+footer{
+    background-color: rgb(135, 136, 135);
+    height: 20vh;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* @media screen and (max-width : 400px) {
+    header{
+        flex-direction: column;
+    }
+    #text{
+        order: -1;
+    }
+}  */
